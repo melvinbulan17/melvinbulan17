@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="t">
+  <title id="t">Melvin S. Bulan. I lead it. I test it. A moon moves through its phases while a small bug orbits it.</title>
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, Menlo, monospace; }
+    .star { fill: #e6e8ec; animation: twinkle 5s ease-in-out infinite; }
+    .s2 { animation-delay: -1.3s; } .s3 { animation-delay: -2.6s; } .s4 { animation-delay: -3.9s; }
+    .shadow { transform: translateX(-74px); animation: phase 32s ease-in-out infinite alternate; }
+    .orbit { transform-origin: 980px 180px; animation: orbit 40s linear infinite; }
+    @keyframes twinkle { 0%, 100% { opacity: .9; } 50% { opacity: .25; } }
+    @keyframes phase { from { transform: translateX(-250px); } to { transform: translateX(250px); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .star, .shadow, .orbit { animation: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="frame"><rect width="1280" height="360" rx="18"/></clipPath>
+    <clipPath id="disc"><circle cx="980" cy="180" r="104"/></clipPath>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#d81b60" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#d81b60" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="#030d19"/>
+    <circle cx="980" cy="180" r="240" fill="url(#glow)"/>
+
+    <circle class="star" cx="62" cy="48" r="1.6"/>
+    <circle class="star s2" cx="214" cy="30" r="1.2"/>
+    <circle class="star s3" cx="392" cy="56" r="1.8"/>
+    <circle class="star s4" cx="560" cy="28" r="1.2"/>
+    <circle class="star" cx="668" cy="88" r="1.5"/>
+    <circle class="star s2" cx="742" cy="306" r="1.8"/>
+    <circle class="star s3" cx="610" cy="330" r="1.2"/>
+    <circle class="star s4" cx="424" cy="316" r="1.5"/>
+    <circle class="star" cx="196" cy="326" r="1.2"/>
+    <circle class="star s2" cx="46" cy="290" r="1.8"/>
+    <circle class="star s3" cx="1208" cy="64" r="1.8"/>
+    <circle class="star s4" cx="1242" cy="214" r="1.2"/>
+    <circle class="star" cx="1176" cy="322" r="1.5"/>
+    <circle class="star s2" cx="790" cy="42" r="1.2"/>
+
+    <g class="mono">
+      <text x="72" y="142" font-size="56" font-weight="700" fill="#e6e8ec">Melvin S. Bulan</text>
+      <text x="72" y="198" font-size="30" fill="#e6e8ec">I lead it. <tspan fill="#f0437f">I test it.</tspan></text>
+      <text x="72" y="256" font-size="22" fill="#a3adbd">// bulan (n.): moon</text>
+    </g>
+
+    <g clip-path="url(#disc)">
+      <rect x="870" y="70" width="220" height="220" fill="#f5f5f3"/>
+      <g fill="#d9dbe2">
+        <circle cx="948" cy="140" r="20"/>
+        <circle cx="1022" cy="118" r="11"/>
+        <circle cx="1030" cy="196" r="24"/>
+        <circle cx="952" cy="226" r="13"/>
+        <circle cx="990" cy="256" r="7"/>
+        <circle cx="908" cy="182" r="8"/>
+      </g>
+      <circle class="shadow" cx="980" cy="180" r="108" fill="#0b1626"/>
+    </g>
+    <circle cx="980" cy="180" r="104" fill="none" stroke="#56627a" stroke-opacity=".5"/>
+    <circle cx="980" cy="180" r="140" fill="none" stroke="#56627a" stroke-opacity=".45" stroke-dasharray="2 9" stroke-linecap="round"/>
+
+    <g class="orbit">
+      <g transform="translate(980 40)" stroke="#f0437f" stroke-width="2" stroke-linecap="round" fill="none">
+        <path d="M-5 -6 L-8 -11 M0 -7 L0 -12 M5 -6 L8 -11 M-5 6 L-8 11 M0 7 L0 12 M5 6 L8 11"/>
+        <path d="M12 -3 L18 -7 M12 3 L18 7"/>
+        <ellipse cx="0" cy="0" rx="10" ry="7" fill="#d81b60" stroke="none"/>
+        <circle cx="11" cy="0" r="4.5" fill="#f0437f" stroke="none"/>
+        <path d="M-9 0 L9 0" stroke="#030d19" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
