@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="t">
-  <title id="t">Melvin S. Bulan. I lead it. I test it. A moon moves through its phases while a small bug orbits it.</title>
+  <title id="t">Melvin S. Bulan. A moon moves through its phases while a small bug orbits it.</title>
   <style>
     .mono { font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, Menlo, monospace; }
     .star { fill: #e6e8ec; animation: twinkle 5s ease-in-out infinite; }
@@ -42,9 +42,8 @@
     <circle class="star s2" cx="790" cy="42" r="1.2"/>
 
     <g class="mono">
-      <text x="72" y="142" font-size="56" font-weight="700" fill="#e6e8ec">Melvin S. Bulan</text>
-      <text x="72" y="198" font-size="30" fill="#e6e8ec">I lead it. <tspan fill="#f0437f">I test it.</tspan></text>
-      <text x="72" y="256" font-size="22" fill="#a3adbd">// bulan (n.): moon</text>
+      <text x="72" y="172" font-size="56" font-weight="700" fill="#e6e8ec">Melvin S. Bulan</text>
+      <text x="72" y="218" font-size="22" fill="#a3adbd">// bulan (n.): moon</text>
     </g>
 
     <g clip-path="url(#disc)">
