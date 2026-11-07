@@ -11,9 +11,9 @@ I'm Melvin, you can call me Melv. I enjoy learning new things, exploring technol
 
 <br>
 
-<a href="https://www.linkedin.com/in/melvin-bulan-335987220/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-say_hi-d81b60?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=25294a" alt="LinkedIn: say hi"></a>
-<a href="https://mbulan.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-take_a_look-d81b60?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=25294a" alt="Portfolio: take a look"></a>
-<a href="https://ko-fi.com/mbulandev" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ko--fi-buy_me_a_coffee-d81b60?style=for-the-badge&logo=kofi&logoColor=white&labelColor=25294a" alt="Ko-fi: buy me a coffee"></a>
+<a href="https://www.linkedin.com/in/melvin-bulan-335987220/"><img src="https://img.shields.io/badge/LinkedIn-say_hi-d81b60?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=25294a" alt="LinkedIn: say hi"></a>
+<a href="https://mbulan.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-take_a_look-d81b60?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=25294a" alt="Portfolio: take a look"></a>
+<a href="https://ko-fi.com/mbulandev"><img src="https://img.shields.io/badge/Ko--fi-buy_me_a_coffee-d81b60?style=for-the-badge&logo=kofi&logoColor=white&labelColor=25294a" alt="Ko-fi: buy me a coffee"></a>
 
 <br>
 
